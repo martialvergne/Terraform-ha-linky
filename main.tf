@@ -8,7 +8,7 @@ resource "docker_container" "ha-linky" {
   image   = docker_image.ha-linky.image_id
   name    = "HA-Linky"
   env {
-    SUPERVISOR_TOKEN = "c7yQPNNTu-B_AYce5ls10_dU1b_nGbGWQ
+    SUPERVISOR_TOKEN = 
     WS_URL           = ws://192.168.1.61:8123/api/websocket
   }
   volumes {
