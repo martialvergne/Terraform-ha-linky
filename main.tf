@@ -8,8 +8,8 @@ resource "docker_container" "ha-linky" {
   image   = docker_image.ha-linky.image_id
   name    = "HA-Linky"
   env {
-    SUPERVISOR_TOKEN = 
-    WS_URL           = ws://192.168.1.61:8123/api/websocket
+    SUPERVISOR_TOKEN = var.token
+    WS_URL           = ws://var.ws_url/api/websocket
   }
   volumes {
     host_path        = /home/martial/linky
