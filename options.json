@@ -1,0 +1,23 @@
+{
+  "meters": [
+    {
+      "prm": "16153690098313",
+      "token": "eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjE3NTA3NTcsImV4cCI6MTgxNjI3MjM1Nywic3ViIjpbIjE2MTUzNjkwMDk4MzEzIl19.pT_ahJZOX>
+      "name": "Linky consumption",
+      "action": "sync",
+      "production": false
+    }
+  ],
+  "costs": [
+    {
+      "price": "0.2874",
+      "after": "06:00",
+      "before": "23:00",
+      "weekday": ["mon","tue","wed","thu"]
+    },
+    {
+      "price": "0.2088",
+      "weekday": ["fri","sat","sun"]
+    }
+  ]
+}
