@@ -3,5 +3,5 @@ variable "token" {
 }
 
 variable "ws_url" {
-  default  = "192.168.1.61:8163"
+  default  = "192.168.1.61:8123"
 }
