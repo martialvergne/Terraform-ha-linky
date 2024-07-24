@@ -1,6 +1,6 @@
 variable "token" {
-  description  = "Token généré via Conso API : https://conso.boris.sh/"
-  default      = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMWU2NWFiOWIwY2Y0YWM4ODcwMTUyNTc5MDFlNjQzNiIsImlhdCI6MTcyMTc1MDAyMywiZXhwIjoyMDM3MTEwMDIzfQ.hg-gqd1osdFOkyVlsNUWzjQ3nEc9TsnlHBD5lKy33iI"
+  description  = "Token généré sur Home-Assistant"
+  default      = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIwYTJmMTMyMjg5MGE0M2IxOTVjZjMxYmE5N2ZiOTU3NSIsImlhdCI6MTcyMTgxNTY3NSwiZXhwIjoyMDM3MTc1Njc1fQ.0e_PeaWyaxrZL2xZrsEODiwrcKGQQq2RTvTSpM-HBiY"
 }
 
 variable "ws_url" {
