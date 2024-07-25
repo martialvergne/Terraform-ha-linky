@@ -10,14 +10,13 @@
   ],
   "costs": [
     {
-      "price": "0.2874",
+      "price": 0.2874,
       "after": "06:00",
       "before": "23:00",
       "weekday": ["mon","tue","wed","thu"]
     },
     {
-      "price": "0.2088",
-      "weekday": ["fri","sat","sun"]
+      "price": 0.2088
     }
   ]
 }
