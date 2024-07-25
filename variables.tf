@@ -7,3 +7,8 @@ variable "ws_url" {
   description  = "Adresse IP de l'hôte Home assistant"
   default      = "192.168.1.61:8123"
 }
+
+variable "path" {
+  description  = "Répertoire ou sera stocké la configuration sur l'hôte (dont le options.json) et lié au container"
+  default      = "/home/martial/linky"
+}
