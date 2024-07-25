@@ -9,7 +9,7 @@ resource "docker_container" "ha-linky" {
   name  = "HA-Linky"
   env   = ["SUPERVISOR_TOKEN=${var.token}","WS_URL=ws://${var.ws_url}/api/websocket","TZ=Europe/Paris"]
   volumes {
-    host_path      = "/home/martial/linky/Terraform-ha-linky"
+    host_path      = "${var.path}/Terraform-ha-linky"
     container_path = "/data"
   }
 }
